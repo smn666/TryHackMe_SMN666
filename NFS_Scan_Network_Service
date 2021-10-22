@@ -1,0 +1,8 @@
+
+# Nmap 7.70 scan initiated Fri Oct 22 00:23:59 2021 as: nmap -sV -sC -A -oG NFS_Scan_NetworkServices2 10.10.192.172
+Host: 10.10.192.172 ()	Status: Up
+Host: 10.10.192.172 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 2049/open/tcp//nfs_acl//3 (RPC #100227)/	Ignored State: closed (997)	Seq Index: 263	IP ID Seq: All zeros
+# Nmap done at Fri Oct 22 00:24:40 2021 -- 1 IP address (1 host up) scanned in 42.66 seconds
+
+
+
