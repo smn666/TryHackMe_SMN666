@@ -1,0 +1,19 @@
+# Nmap 7.60 scan initiated Sun Oct 24 13:27:54 2021 as: nmap -sC -sV -p- -Pn -oN Zeno_Scan 10.10.12.72
+Nmap scan report for ip-10-10-12-72.eu-west-1.compute.internal (10.10.12.72)
+Host is up (0.00034s latency).
+Not shown: 65533 filtered ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 09:23:62:a2:18:62:83:69:04:40:62:32:97:ff:3c:cd (RSA)
+|   256 33:66:35:36:b0:68:06:32:c1:8a:f6:01:bc:43:38:ce (ECDSA)
+|_  256 14:98:e3:84:70:55:e6:60:0c:c2:09:77:f8:b7:a6:1c (EdDSA)
+12340/tcp open  http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.6 (CentOS) PHP/5.4.16
+|_http-title: We&#39;ve got some trouble | 404 - Resource not found
+MAC Address: 02:0E:91:4E:C7:13 (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 24 13:32:58 2021 -- 1 IP address (1 host up) scanned in 304.04 seconds
